@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  /* Configurações para cada seção do currículo */
+  section {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+    /* max-width: Define a largura máxima de cada seção como 600px, para evitar que as seções fiquem muito largas em telas grandes. */
+    /* width: 100%: Faz com que cada seção ocupe toda a largura disponível no container pai (ou seja, o <main>). */
+    /* margin-bottom: Adiciona um espaçamento inferior de 30px para criar um espaço entre cada seção  */
+  
+  h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  
+  @media (min-width: 768px) {
+    main {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    section {
+      width: 30%;
+    }
+  }
+
+  /* @media: Essa regra de mídia aplica estilos somente quando a largura da tela for maior ou igual a 768 pixels. */
+  /* flex-direction: row: Quando a largura da tela é maior ou igual a 768 pixels, os itens dentro do <main> são organizados em uma linha horizontal. */
+  /* justify-content: space-between: Espaça os itens horizontalmente para ocupar todo o espaço disponível na linha, empurrando as seções para as extremidades do <main>. */
+  /* section { width: 30% }: Define a largura de cada seção como 30% da largura do <main>, permitindo que três seções sejam exibidas lado a lado em telas maiores. */
+  
