@@ -74,10 +74,10 @@ h2 {
 h3 {
   margin-bottom: 5px;
 }
-.Contato i {
+/* .Contato i {
     color: rgb(0, 0, 161);
     bottom: -3px;
-}
+} */
 
 ul {
   list-style: none;
@@ -132,3 +132,4 @@ ul li {
   .footer p {
     margin: 5px 0;
   }
+}
